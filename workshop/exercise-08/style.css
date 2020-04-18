@@ -1,49 +1,80 @@
 body {
-    margin: 0;
-    font-family: Poppins, sans-serif;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  height: 100vh;
 }
 
 .header {
-
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
 }
 
 .registration-form {
-
+  position: relative;
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+  width: 85%;
+  height: 85%;
 }
 
 .text-field {
-
+  box-shadow: 0 0 5px blue;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
 }
 
 .radio-label,
 .checkbox-label {
-
+  text-align: left;
 }
 
 label {
-
+  display: block;
+  text-align: center;
 }
 
 .section {
-
+  position: relative;
+  text-align: left;
+  padding-top: 10px;
+  width: 100%;
+  height: 22%;
+  border-top: 1px solid lightgrey;
 }
 
 .section > label {
-
+  text-align: left;
 }
 
 select {
-
+  margin-left: 10px;
 }
 
 textarea {
-
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
 }
 
 .form-button {
-
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  box-shadow: 0 0 5px blue;
+  margin: 10px auto;
 }
 
 .form-button:hover {
-    
+  background-color: cornflowerblue;
+  color: white;
 }

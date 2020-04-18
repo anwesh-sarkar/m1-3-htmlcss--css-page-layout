@@ -9,8 +9,32 @@ body {
   justify-content: center;
 }
 
+@keyframes right_to_left {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .fast {
+  animation: right_to_left 2s ease-in;
 }
 
 .cool {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 12px 2px #a5a5a5;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 1s;
+}
+
+.cool:hover {
+  transform: scale(2);
 }
